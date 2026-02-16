@@ -37,6 +37,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   aprendiendo_dbt:
-    consumo_electrico:
-      staging:
-        +materialized: table
+    staging:
+      consumo_electrico:
+        +materialized: view
