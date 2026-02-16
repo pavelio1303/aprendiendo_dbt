@@ -1,0 +1,6 @@
+sources:
+  - name: src_consumo_electrico
+    database: snowflake_learning_db
+    schema: consumo_electrico
+    tables:
+      - name: consumo_zonas
